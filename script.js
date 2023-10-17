@@ -9,7 +9,7 @@ function activate(){
         idx.addEventListener('click', function(e){
             let text = e.target.textContent;
             let numb = e.target.parentElement.parentElement.children[0].children[2];
-            if(text == 'Delete'){
+            if(text == '❌'){
                 e.target.parentElement.parentElement.remove();
             } 
             else if(text == '+5'){
@@ -58,7 +58,7 @@ form.addEventListener('submit', function(e){
        return (error.style.display = "inline");
     }
 
-    let date= new Date();
+    // let date= new Date();
 
     let element = document.createElement('div');
     element.classList.add('.card');
@@ -73,7 +73,7 @@ form.addEventListener('submit', function(e){
             <p>${num}</p>
         </div>
         <div class="buttons">
-            <button>Delete</button>
+            <button>❌</button>
             <button>+5</button>
             <button>-5</button>
         </div>
