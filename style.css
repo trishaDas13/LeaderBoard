@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1rem;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 40px;
+}
+.error{
+    display: none;
+}
